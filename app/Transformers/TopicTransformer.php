@@ -9,8 +9,8 @@ use App\Transformers\PostTransformer;
 
 class TopicTransformer extends TransformerAbstract
 {
-    protected   $availableIncludes = ['user', 'posts'];
-    // protected   $defaultIncludes = ['user'];
+    protected $availableIncludes = ['user', 'posts'];
+    // protected $defaultIncludes = ['user'];
     /**
      * A Fractal transformer.
      *
