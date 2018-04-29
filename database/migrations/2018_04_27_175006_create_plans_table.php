@@ -19,7 +19,7 @@ class CreatePlansTable extends Migration
             $table->integer('line')->unsigned();
             $table->integer('buyer_id')->default(1)->unsigned();
             $table->integer('order_id')->default(1)->unsigned();
-            $table->timestamp('start_cut')->useCurrent();
+            $table->timestamp('start_cut');
             $table->timestamps();
         });
     }

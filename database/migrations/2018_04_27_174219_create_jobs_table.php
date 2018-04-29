@@ -15,9 +15,9 @@ class CreateJobsTable extends Migration
     {
         Schema::create('jobs', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamp('date_plan')->useCurrent();
-            $table->timestamp('start_at')->useCurrent();
-            $table->timestamp('done_at')->useCurrent();
+            $table->timestamp('date_plan');
+            $table->timestamp('start_at');
+            $table->timestamp('done_at');
             $table->integer('status')->default(0);
             $table->integer('plan_id')->unsigned();
             $table->integer('user_id')->unsigned();

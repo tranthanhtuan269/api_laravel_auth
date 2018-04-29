@@ -15,7 +15,7 @@ class CreateSamplesTable extends Migration
     {
         Schema::create('samples', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamp('date_plan')->useCurrent();
+            $table->timestamp('date_plan');
             $table->string('go');
             $table->integer('sample_maker')->default(0);
             $table->integer('pattern_status')->unsigned()->default(0);
