@@ -20,15 +20,6 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">User API</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Job API</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Sample API</a>
-          </li>
         </ul>
       </div>
     </nav>
